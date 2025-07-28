@@ -26,3 +26,7 @@ logs
 # eslint
 .eslintcache
 generated/
+
+# pnpm
+pnpm-lock.yaml
+
