@@ -14,14 +14,5 @@ export default defineAPIEventHandler(() => {
     nested: {
       date: new Date('2023-12-31'),
     },
-    mapValue: {
-      data: new Map([
-        ['key1', 'value1'],
-        ['key2', 'value2'],
-      ]),
-    },
-    setValue: {
-      data: new Set([1, 2, 3, 4]),
-    },
   }
 })
