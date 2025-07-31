@@ -8,4 +8,8 @@ export const useAppStore = defineStore('app', () => {
     name,
     updateName,
   }
+}, {
+  persist: {
+    pick: ['name'],
+  },
 })

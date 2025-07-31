@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@prisma/nuxt',
     '@pinia/nuxt',
+    'pinia-plugin-persistedstate/nuxt',
   ],
   eslint: {
     checker: true,
@@ -20,5 +21,8 @@ export default defineNuxtConfig({
   },
   pinia: {
     storesDirs: ['./app/stores/**'],
+  },
+  piniaPluginPersistedstate: {
+    storage: 'localStorage',
   },
 })
