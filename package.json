@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "@nuxt/eslint": "1.7.1",
+    "@pinia/nuxt": "0.11.2",
     "@prisma/nuxt": "0.3.0",
     "eslint": "9.32.0",
     "h3-zod": "^0.5.3",
     "nuxt": "4.0.2",
+    "pinia": "^3.0.3",
     "superjson": "2.2.2",
     "vue": "3.5.18",
     "vue-router": "4.5.1"
